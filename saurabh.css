@@ -1,0 +1,65 @@
+body{
+    background-color: blueviolet;
+}
+h1{
+    color:#ff0000;
+    text-align: center;
+}
+h1:hover{
+    text-shadow: 2px 2px 10px #00ff00;
+}
+img{
+    width:22%;
+    border: 3px solid black;
+    border-radius: 6%;
+}
+img:hover{
+    transform: scale(1.5);
+}
+#image1{
+    margin-left: 19%
+}
+option{
+    text-align: center;
+    background-color: red;
+}
+.navBar{
+    font-size: 30px;
+    background-color: black;
+    transform: translateX(13%);
+    width: 80%;
+}
+a{
+    text-decoration: none;
+    border: 3px solid black;
+    border-radius:10px;
+    color: white;
+    background-color: dimgrey;
+}
+a:hover{
+    background-color: white;
+    color: black;
+    border-bottom-color: chartreuse;
+    border-left-color: chartreuse;
+    box-shadow: 0px 0px 9px blue;
+}
+.t{
+    background-color: dodgerblue;
+}
+P{
+    border: 2px double white;
+    border-radius: 10px;
+    font-family: cursive;
+    font-style: oblique;
+    font-size: 10px;
+    color:white;
+    width: 39%;
+    margin-left:21%;
+    background-color: darkblue
+}
+#facebook{
+    border: none;
+    background: none;
+    color:blue;
+    background-color: wheat;
+}
