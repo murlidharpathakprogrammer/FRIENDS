@@ -63,11 +63,9 @@ a:hover{
 P{
     border: 2px double white;
     border-radius: 10px;
-    font-family: cursive;
-    font-style: oblique;
-    font-size: 10px;
+    font-size: 15px;
     color:black;
     width: 39%;
-    transform: translateY(-195%);
+    transform: translateY(-205%);
     margin-left:13%
 }
