@@ -51,7 +51,7 @@ a{
     background-color: dimgrey;
 }
 a:hover{
-    background-color: white;
+    background-color: #00ff55;
     color: black;
     border-bottom-color: chartreuse;
     border-left-color: chartreuse;
