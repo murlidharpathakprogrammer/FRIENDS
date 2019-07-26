@@ -22,7 +22,7 @@ display: block;
     margin-right: auto;
     width:50%;
     border: 30px solid #00ffff;
-    border-radius: 100%;
+    border-radius: 60%;
 }
 .img:hover{
 display: block;
