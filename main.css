@@ -61,10 +61,10 @@ a:hover{
     background-color: coral;
 }
 P{
-    border: 2px double white;
+    border: 3px double white;
     border-radius: 10px;
-    font-size: 25px;
+    font-size: 35px;
     color:yellowgreen;
-    width: 39%;
+    width: 48%;
     margin-left:13%;
 }
