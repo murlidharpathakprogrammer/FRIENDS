@@ -30,6 +30,9 @@ animation-iteration-count: infinite;
 animation-duration: 10s;
 animation-direction: alternate;
 }
+.bottom{
+ width: 60%;
+}
 
 .img{
 display: block;
