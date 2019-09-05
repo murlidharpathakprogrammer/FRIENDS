@@ -8,7 +8,7 @@ h1{
 h1:hover{
     text-shadow: 2px 2px 10px #00ff00;
 }
-  @keyframes cf3FadeInOut {
+  @keyframes cfFadeInOut {
   0% {
   opacity:1;
 }
@@ -29,10 +29,9 @@ animation-timing-function: ease-in-out;
 animation-iteration-count: infinite;
 animation-duration: 10s;
 animation-direction: alternate;
+width: 50%;
 }
-img.bottom{
- width: 30%;
-}
+
 
 .img{
 display: block;
