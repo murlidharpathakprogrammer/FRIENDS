@@ -12,6 +12,19 @@
     <!-- JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <style>
+       .video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
 
       .top{width: 480px;}
       #name{background-color: #222222;color:#ff0000;font-size:25px;}
@@ -91,7 +104,7 @@ function closeNav() {
   <img class="top" src="85214153_107030247537483_3379507184499949568_o.jpg"/>
 </div>
 <hr/>
-<div id="ytplaylist">
+<div class="video-responsive">
   <iframe width="480" height="200" src="https://www.youtube.com/embed/videoseries?list=PL7l1bPy-2K56AsS8jbvhr19DCA7YOclzo" frameborder="2" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   <iframe width="480" height="200" src="https://www.youtube.com/embed/videoseries?list=PL7l1bPy-2K57fybZPqjYWaZ-LNgG2CzFt" frameborder="2" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
