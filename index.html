@@ -23,12 +23,13 @@
       margin-left: 50px;
      .submit{background-color:#5555ff;}
   </style>
-  <script>function answer() {
-  var response = document.getElementById('answer').value;
-  if (response == "correctanswer")
-    location.href('home.html');
-  else
-    location.href('wrong.html');
+  <script>function checkAnswer(){
+    var response = document.getElementById('answer').value;
+    if (response == "correctanswer")
+        location = 'home.html';
+    else
+        location = 'wrong.html';
+    return false;
 }
   </script>
   </head>
