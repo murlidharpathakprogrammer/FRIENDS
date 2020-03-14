@@ -21,6 +21,7 @@
       #form{text-align:center; border-radius:14px; color:#ff2222; background-color:#777777;}
       margin-left: 50px;
      .submit{background-color:#5555ff;}
+      #pokoimg{ }
   </style>
   <script>function checkAnswer(){
     var response = document.getElementById('answer').value;
@@ -34,13 +35,13 @@
   </head>
   <body>
    
-    <div id="pokoimg">
+    <div id="pokoimg" style="margin:0 auto;">
      <img class="top" src="85214153_107030247537483_3379507184499949568_o.jpg"/>
-    </div>
+    
     <form id="form" onSubmit="return checkAnswer();">
 <input id="name" type="text" maxlength="50" class="box" autofocus />
 <input id="answer" type="password" maxlength="50" class="box" autofocus />
 </br><input type="submit" class="submit" value="SUBMIT" />
-</form>
+</form></div>
 </body>
 </html>
