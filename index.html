@@ -1,1 +1,45 @@
 
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>PoKo Testing</title>
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+    <link href="#" rel="stylesheet" type="text/css"/>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Responsive design viewport -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+       body{background-color:#a01;color:#fff}
+      .top{width: 430px; height:100px;}
+      #name{background-color: #222222;color:#ff0000;font-size:30px;font-family:Aldrich;}
+      #form{text-align:center; border-radius:6px;}
+      margin-left: 50px;
+  </style>
+  <script>function answer() {
+     var response = document.getElementById('answer').value;
+     if (response == "correctanswer")
+     location.href('home.html');
+    else
+     location.href('index.html');
+   }
+  </script>
+  </head>
+  <body>
+   
+    <div id="pokoimg">
+     <img class="top" src="85214153_107030247537483_3379507184499949568_o.jpg"/>
+    </div>
+    <div id="form"><form onSubmit="answer()" id="answer" target="_self">
+     <input type="text" maxlength="55" class="box" autofocus />
+     <input type="submit" class="submit" value="SUBMIT" />
+     </form>
+    </div>
+</body>
+</html>
