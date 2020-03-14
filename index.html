@@ -18,14 +18,14 @@
     <style>
        body{background-color:#a01;color:#fff}
       .top{width: 430px; height:100px;}
-      #name{background-color: #222222; color:#ff0000;font-size:30px;font-family:Aldrich;}
+      #name{background-color: #666666; color:#ff0000;}
       #form{text-align:center; border-radius:6px; color:black;}
       margin-left: 50px;
      .submit{background-color:#5555ff;}
   </style>
   <script>function checkAnswer(){
     var response = document.getElementById('answer').value;
-    if (response == "correctanswer")
+    if (response == "564738")
         location = 'home.html';
     else
         location = 'wrong.html';
@@ -39,7 +39,8 @@
      <img class="top" src="85214153_107030247537483_3379507184499949568_o.jpg"/>
     </div>
     <form id="form" onSubmit="return checkAnswer();">
-<input id="answer" type="text" maxlength="55" class="box" autofocus />
+<input id="name" type="text" maxlength="50" class="box" autofocus />
+<input id="answer" type="password" maxlength="50" class="box" autofocus />
 <input type="submit" class="submit" value="SUBMIT" />
 </form>
 </body>
