@@ -24,12 +24,12 @@
      .submit{background-color:#5555ff;}
   </style>
   <script>function answer() {
-     var response = document.getElementById('answer').value;
-     if (response == "correctanswer")
-     location.href('home.html');
-    else
-     location.href('home');
-   }
+  var response = document.getElementById('answer').value;
+  if (response == "correctanswer")
+    location.href('right.html');
+  else
+    location.href('wrong.html');
+}
   </script>
   </head>
   <body>
@@ -37,10 +37,9 @@
     <div id="pokoimg">
      <img class="top" src="85214153_107030247537483_3379507184499949568_o.jpg"/>
     </div>
-    <div id="form"><form onSubmit="answer()" id="formtag" target="_self">
-     <input type="text" maxlength="55" id="answer" autofocus color="black"/>
-     <input type="submit" class="submit" value="SUBMIT"/>
-     </form>
-    </div>
+    <form onSubmit="return checkAnswer();">
+<input id="answer" type="text" maxlength="55" class="box" autofocus />
+<input type="submit" class="submit" value="SUBMIT" />
+</form>
 </body>
 </html>
