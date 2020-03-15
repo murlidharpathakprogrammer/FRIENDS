@@ -15,7 +15,8 @@
        body{background-color:#a01;color:#004}
       .top{width: 430px; height:100px;}
       #phpform>action={text-align:center; border-radius:14px; color:#ff2222; background-color:#777777; margin:0 auto;}
-     input{border-radius:15px;}
+     input{border-radius:9px;}
+     input:hover{border-radius:7px; border-color:#44ff33;}
      h3{color:white;}
      input.submit{background-color:#3b5998; color:#fff; border-radius:6px;}
       div{text-align:center;}
@@ -36,7 +37,7 @@
 
       <form id="phpform>action="/action_page.php" style="background-color:#cc7777; width:250px; height:170px; margin-top:10px; border-radius:12px;" onsubmit="return checkPwd()">
         <h3>Log In</h3>
-        <input type="text" id="name" name="name" placeholder="Name" style="margin-top:12px;"></br></br>
+        <input type="text" id="name" name="name" placeholder="Name" style="margin-top:10px;"></br></br>
         <input type="password" id="pwd" name="pwd" minlength="6" placeholder="Password"></br></br>
         <input type="submit" class="submit" name="submit">
       </form>
