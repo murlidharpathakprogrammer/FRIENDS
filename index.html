@@ -14,7 +14,7 @@
     <style>
        body{background-color:#a01;color:#fff}
       .top{width: 430px; height:100px;}
-      #form{text-align:center; border-radius:14px; color:#ff2222; background-color:#777777;}
+      #phpform>action={text-align:center; border-radius:14px; color:#ff2222; background-color:#777777;}
       margin-left: 50px;
      input{border-radius:15px;}
      input.submit{background-color:#5544ff; color:#fff}
@@ -33,18 +33,14 @@
   <body>
      <img class="top" src="85214153_107030247537483_3379507184499949568_o.jpg"/>
     <div>
-    <form id="form" style="width:290px; auto;" onSubmit="return checkAnswer();">
-<input id="name" type="text" maxlength="50" class="box" autofocus placeholder="Name"/>
-<input id="answer" type="password" maxlength="50" class="box" autofocus placeholder="Password"/>
-</br><input type="submit" class="submit" value="SUBMIT" />
-</form>
+    
 
 <h3>Enter Login Name and Password</h3>
 
 <form id="phpform>action="/action_page.php">
   <input type="email" id="email" name="email" placeholder="Name"><br><br>
   <input type="password" id="pwd" name="pwd" minlength="8" placeholder="Password"><br><br>
-  <input type="submit">
+  <input type="submit" class="submit">
 </form>
 
 </div>
